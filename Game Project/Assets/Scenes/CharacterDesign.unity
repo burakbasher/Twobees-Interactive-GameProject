@@ -233,7 +233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BREZILYA
+  m_text: Fenerbahce
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
@@ -5651,7 +5651,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b544d27c62041ab469a63b8c03714bc3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 20f3c73392283354f880f5f64b3112fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6801,24 +6801,28 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: BREZILYA
-      m_Image: {fileID: 21300000, guid: b544d27c62041ab469a63b8c03714bc3, type: 3}
-    - m_Text: BELCIKA
-      m_Image: {fileID: 21300000, guid: 59f763325fc9f3240b501e3b227b14cf, type: 3}
-    - m_Text: FRANSA
-      m_Image: {fileID: 21300000, guid: 6b122ae779dd11d4baa13b39f446552f, type: 3}
-    - m_Text: INGILTERE
-      m_Image: {fileID: 21300000, guid: 5ee91c63c590f2647811afeb0cfa8429, type: 3}
-    - m_Text: ITALYA
-      m_Image: {fileID: 21300000, guid: 827a44c10adc1e046953bed8bc7d243f, type: 3}
-    - m_Text: ISPANYA
-      m_Image: {fileID: 21300000, guid: 0dd997d6c3afb524b840bfd104c84b55, type: 3}
-    - m_Text: PORTEKIZ
-      m_Image: {fileID: 21300000, guid: a235fcd5feab3d648894fb2e8b4c52b4, type: 3}
-    - m_Text: HOLLANDA
-      m_Image: {fileID: 21300000, guid: 5970294aeac5cd249b222301c1806ddb, type: 3}
-    - m_Text: ALMANYA
-      m_Image: {fileID: 21300000, guid: 08636fa1c246f3d49bbf3f6e2566124a, type: 3}
+    - m_Text: Fenerbahce
+      m_Image: {fileID: 21300000, guid: 20f3c73392283354f880f5f64b3112fa, type: 3}
+    - m_Text: Galatasaray
+      m_Image: {fileID: 21300000, guid: 54f70a5a73beb7240a82e1b75a81d93a, type: 3}
+    - m_Text: Besiktas
+      m_Image: {fileID: 21300000, guid: 5da48b30a7391194f822e780aeabda96, type: 3}
+    - m_Text: Bayern Munchen
+      m_Image: {fileID: 21300000, guid: 689a81ecaa1f6b24b8c83e93c280f9c0, type: 3}
+    - m_Text: Paris Saint-Germain
+      m_Image: {fileID: 21300000, guid: 7105ac23404748d4baa55d9d7469f52b, type: 3}
+    - m_Text: Manchester City
+      m_Image: {fileID: 21300000, guid: b05c495a8179e5b4e9dbb155b1e9b84d, type: 3}
+    - m_Text: Liverpool
+      m_Image: {fileID: 21300000, guid: f0ee60d83bf44d94986352f915a9977f, type: 3}
+    - m_Text: Chelsea
+      m_Image: {fileID: 21300000, guid: 27af382c733a3824eae610d0e76e74bf, type: 3}
+    - m_Text: Manchester United
+      m_Image: {fileID: 21300000, guid: 953fb094ebca4cd40a7fad6bc3085b29, type: 3}
+    - m_Text: Milan
+      m_Image: {fileID: 21300000, guid: a55bfa1fe96bc1841a490375442fc389, type: 3}
+    - m_Text: Inter
+      m_Image: {fileID: 21300000, guid: 217c2346b23d9024b9b204b76eb28162, type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

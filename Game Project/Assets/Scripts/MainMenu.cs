@@ -5,9 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayNewGame ()
+    public void LoadLoginSignUp()
     {
-        SceneManager.LoadScene(1); //1. sahne yeni oyun
+        SceneManager.LoadScene(0); 
+    }
+    public void LoadLogin()
+    {
+        SceneManager.LoadScene(1); 
+    }
+    public void LoadSignUp()
+    {
+        SceneManager.LoadScene(2); 
+    }
+     public void LoadMenu()
+    {
+        SceneManager.LoadScene(3); 
+    }
+    public void LoadCharacterDesign()
+    {
+        SceneManager.LoadScene(4); 
     }
     
     public void QuitGame ()
