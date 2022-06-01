@@ -2668,6 +2668,8 @@ GameObject:
   - component: {fileID: 688852790}
   - component: {fileID: 688852789}
   - component: {fileID: 688852788}
+  - component: {fileID: 688852793}
+  - component: {fileID: 688852792}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2764,6 +2766,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &688852792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688852787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa60ec8e3bcffcc4da9bedb5d60ae72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &688852793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688852787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1890d036e522a2d49821d06a6b141175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseUrl: http://localhost/gameprojectdb/CharecterDesing.php
+  playerName: {fileID: 932156241}
+  playerLastName: {fileID: 878437617}
+  playerAge: {fileID: 1137182892}
+  playerNation: {fileID: 2113629439}
+  playerClub: {fileID: 1842022651}
 --- !u!1 &731439862
 GameObject:
   m_ObjectHideFlags: 0
@@ -3742,7 +3774,7 @@ GameObject:
   - component: {fileID: 1042171762}
   - component: {fileID: 1042171761}
   m_Layer: 5
-  m_Name: NewGameButton
+  m_Name: forward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3813,9 +3845,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayNewGame
+      - m_Target: {fileID: 688852793}
+        m_TargetAssemblyTypeName: CharacterDesing, Assembly-CSharp
+        m_MethodName: CharacterRegister
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5761,7 +5793,7 @@ GameObject:
   - component: {fileID: 1661679140}
   - component: {fileID: 1661679139}
   m_Layer: 5
-  m_Name: NewGameButton
+  m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5832,9 +5864,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 688852792}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayNewGame
+        m_MethodName: LoadMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

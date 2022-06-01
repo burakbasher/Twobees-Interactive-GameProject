@@ -22,7 +22,7 @@ public class LoginSignUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentUsername = " ";
+        currentUsername = "";
          
         if(PlayerPrefs.HasKey(ukey)){
             if(PlayerPrefs.GetString(ukey) != ""){
@@ -61,6 +61,7 @@ public class LoginSignUp : MonoBehaviour
         string username = accountUserName.text;
         string password = accountPassword.text;
         StartCoroutine(LogInAccount(username, password));
+        
     }
      
     IEnumerator RegisterNewAccount(string username, string password)
@@ -111,7 +112,6 @@ public class LoginSignUp : MonoBehaviour
                     info.text = "Login Success with username " + username;
                     Debug.Log("Login Success with username " + username);
 
-                    SceneManager.LoadScene(1);
                 }else{
                     info.text = "Login Failed." + zort;
                     
