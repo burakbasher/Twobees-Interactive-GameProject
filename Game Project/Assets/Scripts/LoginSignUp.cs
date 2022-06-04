@@ -105,15 +105,15 @@ public class LoginSignUp : MonoBehaviour
             else
             {
                 string responseText = www.downloadHandler.text;
-                int zort = int.Parse(responseText);
+                int conv = int.Parse(responseText);
                 
-                if(zort == 1 ){
+                if(conv == 1 ){
                     PlayerPrefs.SetString(ukey, username);
                     info.text = "Login Success with username " + username;
                     Debug.Log("Login Success with username " + username);
 
                 }else{
-                    info.text = "Login Failed." + zort;
+                    info.text = "Login Failed." + conv;
                     
                     
                 }

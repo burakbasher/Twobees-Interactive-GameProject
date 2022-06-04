@@ -21,6 +21,18 @@ EditorBuildSettings:
     path: Assets/Scenes/CharacterDesign.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/game.unity
+    path: Assets/Scenes/Boss.unity
+    guid: da8c7084a61c85a49a96e80b73ebe8b6
+  - enabled: 1
+    path: Assets/Scenes/level1.unity
     guid: da3a7db40bcc07a4eae618a3102f27f7
+  - enabled: 1
+    path: Assets/Scenes/level2.unity
+    guid: c5311feb7a0f4914e81d13fcff39e9a1
+  - enabled: 1
+    path: Assets/Scenes/level3.unity
+    guid: 22191cf7ca5febe49b8a57f106d3a61b
+  - enabled: 1
+    path: Assets/Scenes/level4.unity
+    guid: 1831b60dfd706f540ad216fa85db975e
   m_configObjects: {}
