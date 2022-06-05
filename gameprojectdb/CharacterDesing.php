@@ -15,6 +15,7 @@ $connection = mysqli_connect('localhost', 'root', '', 'gameprojectdb');
         //Check is the username has not taken
             if(mysqli_num_rows(mysqli_query($connection, "SELECT * FROM players WHERE name = '$name'")) == 0){
                 mysqli_query($connection, "INSERT INTO players (name, lastname, age, nation, club) VALUES ('$name', '$lastname', '$age', '$nation', '$club')");
+                
                 echo "Regitering new player";
             }else{
                 echo "This name is not available. Please use another name.";
