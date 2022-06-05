@@ -236,8 +236,7 @@ MonoBehaviour:
   m_text: Fenerbahce
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -628,8 +627,7 @@ MonoBehaviour:
   m_text: BREZILYA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1070,8 +1068,7 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1548,8 +1545,7 @@ MonoBehaviour:
   m_text: "\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1990,8 +1986,7 @@ MonoBehaviour:
   m_text: BREZILYA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2210,8 +2205,7 @@ MonoBehaviour:
   m_text: "\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2419,11 +2413,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SOY ADINIZ
+  m_text: SOYADINIZ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3686,8 +3679,7 @@ MonoBehaviour:
   m_text: BREZILYA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3956,8 +3948,7 @@ MonoBehaviour:
   m_text: ADINIZ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4964,8 +4955,7 @@ MonoBehaviour:
   m_text: TAKIM SECIN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6477,8 +6467,7 @@ MonoBehaviour:
   m_text: "\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8144,8 +8133,7 @@ MonoBehaviour:
   m_text: YASINIZ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

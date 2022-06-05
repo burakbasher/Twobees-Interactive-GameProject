@@ -184,8 +184,7 @@ MonoBehaviour:
   m_text: Ronaldo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -478,8 +477,7 @@ MonoBehaviour:
   m_text: Real Madrid
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -904,8 +902,7 @@ MonoBehaviour:
   m_text: PSG
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1433,8 +1430,7 @@ MonoBehaviour:
   m_text: Rakipler
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1586,6 +1582,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505792148}
   m_CullTransparentMesh: 1
+--- !u!1 &506938231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506938233}
+  - component: {fileID: 506938232}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &506938232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506938231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e9e2663177aca45a6720f215106c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &506938233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506938231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8233001, y: 1.1767895, z: -0.025662756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &530464359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,8 +1966,7 @@ MonoBehaviour:
   m_text: Benzema
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2064,8 +2103,7 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2200,8 +2238,7 @@ MonoBehaviour:
   m_text: Fransa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2470,8 +2507,7 @@ MonoBehaviour:
   m_text: PSG
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3028,8 +3064,7 @@ MonoBehaviour:
   m_text: MANU
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3242,8 +3277,7 @@ MonoBehaviour:
   m_text: Portekiz
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4271,8 +4305,7 @@ MonoBehaviour:
   m_text: Fransa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4792,8 +4825,7 @@ MonoBehaviour:
   m_text: Messi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5004,8 +5036,7 @@ MonoBehaviour:
   m_text: Mbappe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
-  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a,
-    type: 2}
+  m_sharedMaterial: {fileID: -7720883847746583005, guid: 903e420949d308a45bce97311a5fdb2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

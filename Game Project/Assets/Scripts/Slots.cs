@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Networking;
+using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class Slots : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
+{   public void QuitGame()
     {
-        
+        PlayerPrefs.SetInt("SlotSaved" + SaveID.saveID, 5);
+        PlayerPrefs.SetInt("LoadSaved" + SaveID.saveID , 5);
+        PlayerPrefs.SetInt("SavedScene" + SaveID.saveID, SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(6);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+    
 }

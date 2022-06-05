@@ -61,6 +61,11 @@ public class LoginSignUp : MonoBehaviour
         string username = accountUserName.text;
         string password = accountPassword.text;
         StartCoroutine(LogInAccount(username, password));
+       
+    
+        SceneManager.LoadScene(3);
+         Debug.Log("Loading scene 3, Menu Scene");
+    
         
     }
      

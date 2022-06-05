@@ -16,17 +16,20 @@ public class MoveNextLevel : MonoBehaviour
         LoadNext = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
-    public void Trigger(Collider a)
+    public void OnTriggerEnter2D(Collider2D a)
     {
-        if(SceneManager.GetActiveScene().buildIndex == 9)
+        if(a.tag == "EndPoint") 
         {
-            Debug.Log("You win the game");
-        }
-        SceneManager.LoadScene(LoadNext);
+            if(SceneManager.GetActiveScene().buildIndex == 10)
+            {
+                Debug.Log("You win the game");
+            }
+            SceneManager.LoadScene(LoadNext);
 
-        if(LoadNext > PlayerPrefs.GetInt("currentLevel"))
-        {
-            PlayerPrefs.SetInt("currentLecel", LoadNext);
+            if(LoadNext > PlayerPrefs.GetInt("currentLevel"))
+            {
+                PlayerPrefs.SetInt("currentLevel", LoadNext);
+            }
         }
     }
 }

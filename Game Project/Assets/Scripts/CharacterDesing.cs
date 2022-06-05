@@ -29,6 +29,9 @@ public class CharacterDesing : MonoBehaviour
         string club = playerClub.options[playerClub.value].text;
         
         StartCoroutine(RegisterPlayer(name, lastname, age, nation, club));
+
+        SceneManager.LoadScene(6);
+         Debug.Log("Loading scene 6");
         
     }
     
