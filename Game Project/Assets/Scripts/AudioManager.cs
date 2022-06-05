@@ -9,6 +9,8 @@ public class AudioManager : MonoBehaviour
     // AudioManagerin her sahne yüklenmesinde tekrar tekrar çalışmaması için.
     public static AudioManager instance;
 
+    private int index;
+
     void Awake()
     {
         if (instance == null){// sahnede audio manager yoksa,
@@ -31,21 +33,64 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    void Start ()
+    private void Update()
     {
-        Play("Theme");
+        if(playsNothing() == 1)
+        {
+            Play();
+        }
+       
+    }
+    private int playsNothing()
+    {
+        int check = 1;
+        for (int i = 0; i < sounds.Length; i++)
+        {
+            if (sounds[i].source.isPlaying)
+            {
+                check = -1;
+            }
+ 
+        }
+        return check;
+    }
+    void PlayNextSong()
+    {
+        Sound s = sounds[UnityEngine.Random.Range(0, sounds.Length)];
+        s.source.Play();
+
     }
 
-    public void Play(string name)
+    //isime göre ses oynatmak için.
+    public void Play()
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        
-        if (s == null) //yanlış isim girme durunlarında hatalardan kaçınmak için.
-        {   
-            Debug.LogWarning("Sound "+ name +" not found!");
-            return;
-        }
-        s.source.Play();
+        //Sound a = Array.Find(sounds, sound => sound.name == name);
+        //Sound b = Array.Find(sounds, sound => sound.name == name2);
+        //Sound c = Array.Find(sounds, sound => sound.name == name3);
+        //if (a == null) //yanlış isim girme durunlarında hatalardan kaçınmak için.
+        //{   
+        //    Debug.LogWarning("Sound "+ name +" not found!");
+        //    return;
+        //}else if(b == null)
+        //{
+        //    Debug.LogWarning("Sound " + name2 + " not found!");
+        //    return;
+        //}
+        //else if(c == null) {
+        //    Debug.LogWarning("Sound " + name3 + " not found!");
+        //    return;
+        //}else if(!a.source.isPlaying && !b.source.isPlaying && !b.source.isPlaying)
+        //{
+        //    PlayNextSong();
+        //}
+
+        while (playsNothing() == 1)
+        {
+            PlayNextSong();
+
+        }          
     }
+
 }
 
+//sounds[0].source.isPlaying == false && sounds[1].source.isPlaying == false && sounds[2].source.isPlaying == false
